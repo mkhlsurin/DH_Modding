@@ -1,4 +1,5 @@
 
+
 // Find the base address of the game module
 var base = Module.findBaseAddress('DreadHungerServer-Win64-Shipping.exe');
 
@@ -59,3 +60,4 @@ Interceptor.attach(ADH_BoneDagger_PutDown, {
     //logInfo('[ADH_BoneDagger::PutDown] Leave');
   }
 });
+
