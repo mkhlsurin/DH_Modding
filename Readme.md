@@ -79,10 +79,6 @@ Below is an example of the script in action:
 Does not work if Spirit Walk is cast while in a Prison Cell.
 This is because the Bone Dagger is unavailable until you leave the cell.
 
-## How to Use
-
-1. Use the **Frida tool** to inject the scripts into **Dread Hunger**.
-2. Run the `add_things.js` script to enable the additional content for the **Expanse** map.
 
 ---
 
