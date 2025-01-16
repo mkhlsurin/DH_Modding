@@ -64,6 +64,21 @@ To balance gameplay, the following adjustments have been made:
 	 ![CragtingTable](Images/Extra_CraftingTable_LightHouse_Zone.png)  
 ---
 
+
+### Spirit_walk_on_demand.js
+
+- Allows players to exit Spirit Walk early before the timer expires.
+- The trigger for exiting Spirit Walk is PutBoneDagger_Down (bound to the X key by default).
+- Simply press the X key while in Spirit Walk to end it prematurely.
+
+###	Example
+	Below is an example of the script in action:
+	![spirit_walk_end](Images/spirit_walk_end.gif)
+
+### Limitations
+	Does not work if Spirit Walk is cast while in a Prison Cell.
+	This is because the Bone Dagger is unavailable until you leave the cell.
+
 ## How to Use
 
 1. Use the **Frida tool** to inject the scripts into **Dread Hunger**.
