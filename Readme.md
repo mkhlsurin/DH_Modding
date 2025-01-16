@@ -71,7 +71,7 @@ To balance gameplay, the following adjustments have been made:
 - The trigger for exiting Spirit Walk is PutBoneDagger_Down (bound to the X key by default).
 - Simply press the X key while in Spirit Walk to end it prematurely.
 
-###	Example
+###Example
 	Below is an example of the script in action:
 	![spirit_walk_end](Images/spirit_walk_end.gif)
 
